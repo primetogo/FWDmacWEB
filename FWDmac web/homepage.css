@@ -1,0 +1,25 @@
+@charset "utf-8";
+.grid-container {
+	width : 100%;
+    max-width : 1200px;
+}
+.row:before, 
+.row:after {
+    content:"";
+    display: table ;
+    clear:both;
+}
+[class*='col-'] {
+    float: left;
+    min-height: 1px;
+}
+.col-1{
+	width: 39%;
+	background-image: url(Image/Master/images/Template-home_01.jpg);
+	background-size: 100%;
+	background-repeat:no-repeat;
+}
+.video-pos{
+	margin-left: 25%;
+}
+
